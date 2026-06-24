@@ -18,7 +18,7 @@ parameter TAG_BITS     = ADDR_WIDTH - INDEX_BITS - OFFSET_BITS;
 parameter ECC_BITS     = 7;
 
     // FSM state one-hot encoding 
-    typedef enum logic [7:0] {
+  typedef enum logic [5:0] {
         IDLE      = 6'b000001,
         COMPARE   = 6'b000010,
         WRITEBACK = 6'b000100,
