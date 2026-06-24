@@ -1,0 +1,33 @@
+[
+  {
+    "op": "W",
+    "addr": 6248,
+    "hit": 0,
+    "data": 2882400001,
+    "sec": 0,
+    "ded": 0
+  },
+  {
+    "op": "FAULT",
+    "addr": 6248,
+    "word_idx": 2,
+    "bit_pos": 15,
+    "double": false
+  },
+  {
+    "op": "R",
+    "addr": 6248,
+    "hit": 1,
+    "data": 2882400001,
+    "sec": 1,
+    "ded": 0
+  },
+  {
+    "op": "R",
+    "addr": 6248,
+    "hit": 1,
+    "data": 2882400001,
+    "sec": 0,
+    "ded": 0
+  }
+]
